@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-  <!-- 
+  <!--
     Microsoft ResX Schema 
-    
+
     Version 2.0
-    
-    The primary goals of this format is to allow a simple XML format 
-    that is mostly human readable. The generation and parsing of the 
-    various data types are done through the TypeConverter classes 
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
     associated with the data types.
-    
+
     Example:
-    
+
     ... ado.net/XML headers & schema ...
     <resheader name="resmimetype">text/microsoft-resx</resheader>
     <resheader name="version">2.0</resheader>
@@ -26,36 +26,36 @@
         <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
         <comment>This is a comment</comment>
     </data>
-                
-    There are any number of "resheader" rows that contain simple 
+
+    There are any number of "resheader" rows that contain simple
     name/value pairs.
-    
-    Each data row contains a name, and value. The row also contains a 
-    type or mimetype. Type corresponds to a .NET class that support 
-    text/value conversion through the TypeConverter architecture. 
-    Classes that don't support this are serialized and stored with the 
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
     mimetype set.
-    
-    The mimetype is used for serialized objects, and tells the 
-    ResXResourceReader how to depersist the object. This is currently not 
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
     extensible. For a given mimetype the value must be set accordingly:
-    
-    Note - application/x-microsoft.net.object.binary.base64 is the format 
-    that the ResXResourceWriter will generate, however the reader can 
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
     read any of the formats listed below.
-    
+
     mimetype: application/x-microsoft.net.object.binary.base64
-    value   : The object must be serialized with 
+    value   : The object must be serialized with
             : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
             : and then encoded with base64 encoding.
     
     mimetype: application/x-microsoft.net.object.soap.base64
-    value   : The object must be serialized with 
+    value   : The object must be serialized with
             : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
             : and then encoded with base64 encoding.
 
     mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : The object must be serialized into a byte array 
+    value   : The object must be serialized into a byte array
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
@@ -117,33 +117,33 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="menuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing">
+  <metadata name="menuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
-  </data>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="menu_file_open.Size" type="System.Drawing.Size, System.Drawing">
-    <value>224, 26</value>
+    <value>188, 26</value>
   </data>
   <data name="menu_file_open.Text" xml:space="preserve">
     <value>打开Handling</value>
   </data>
   <data name="menu_file_save.Size" type="System.Drawing.Size, System.Drawing">
-    <value>224, 26</value>
+    <value>188, 26</value>
   </data>
   <data name="menu_file_save.Text" xml:space="preserve">
     <value>保存Handling</value>
   </data>
   <data name="menu_file_close.Size" type="System.Drawing.Size, System.Drawing">
-    <value>224, 26</value>
+    <value>188, 26</value>
   </data>
   <data name="menu_file_close.Text" xml:space="preserve">
     <value>关闭Handling</value>
   </data>
   <data name="toolStripSeparator_file.Size" type="System.Drawing.Size, System.Drawing">
-    <value>221, 6</value>
+    <value>185, 6</value>
   </data>
   <data name="menu_file_exit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>224, 26</value>
+    <value>188, 26</value>
   </data>
   <data name="menu_file_exit.Text" xml:space="preserve">
     <value>退出</value>
@@ -164,7 +164,7 @@
     <value>0, 0</value>
   </data>
   <data name="menuStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>740, 28</value>
+    <value>542, 28</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="menuStrip.TabIndex" type="System.Int32, mscorlib">
@@ -183,28 +183,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;menuStrip.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="comboBox_carnames.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 56</value>
-  </data>
-  <data name="comboBox_carnames.Size" type="System.Drawing.Size, System.Drawing">
-    <value>171, 28</value>
-  </data>
-  <data name="comboBox_carnames.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;comboBox_carnames.Name" xml:space="preserve">
-    <value>comboBox_carnames</value>
-  </data>
-  <data name="&gt;&gt;comboBox_carnames.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;comboBox_carnames.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;comboBox_carnames.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>3</value>
   </data>
   <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -234,18 +213,574 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>2</value>
   </data>
-  <data name="$this.Localizable" type="System.Boolean, mscorlib">
+  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="label9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI, 9pt, style=Bold</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 210</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 19</value>
+  </data>
+  <data name="label9.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>重心（z轴方向）</value>
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+    <value>tabPage_normal</value>
+  </data>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI, 9pt, style=Bold</value>
+  </data>
+  <data name="label8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 177</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 19</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>重心（y轴方向）</value>
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>tabPage_normal</value>
+  </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="textBox_drown_per.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="textBox_drown_per.Location" type="System.Drawing.Point, System.Drawing">
+    <value>197, 239</value>
+  </data>
+  <data name="textBox_drown_per.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 27</value>
+  </data>
+  <data name="textBox_drown_per.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;textBox_drown_per.Name" xml:space="preserve">
+    <value>textBox_drown_per</value>
+  </data>
+  <data name="&gt;&gt;textBox_drown_per.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox_drown_per.Parent" xml:space="preserve">
+    <value>tabPage_normal</value>
+  </data>
+  <data name="&gt;&gt;textBox_drown_per.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="textBox_gravity_z.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="textBox_gravity_z.Location" type="System.Drawing.Point, System.Drawing">
+    <value>197, 206</value>
+  </data>
+  <data name="textBox_gravity_z.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 27</value>
+  </data>
+  <data name="textBox_gravity_z.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;textBox_gravity_z.Name" xml:space="preserve">
+    <value>textBox_gravity_z</value>
+  </data>
+  <data name="&gt;&gt;textBox_gravity_z.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox_gravity_z.Parent" xml:space="preserve">
+    <value>tabPage_normal</value>
+  </data>
+  <data name="&gt;&gt;textBox_gravity_z.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI, 9pt, style=Bold</value>
+  </data>
+  <data name="label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 243</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 19</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>车辆淹没百分比</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>tabPage_normal</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI, 9pt, style=Bold</value>
+  </data>
+  <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 144</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 19</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>重心（x轴方向）</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>tabPage_normal</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI, 9pt, style=Bold</value>
+  </data>
+  <data name="label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 111</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 19</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>阻力系数</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>tabPage_normal</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="textBox_gravity_y.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="textBox_gravity_y.Location" type="System.Drawing.Point, System.Drawing">
+    <value>197, 173</value>
+  </data>
+  <data name="textBox_gravity_y.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 27</value>
+  </data>
+  <data name="textBox_gravity_y.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;textBox_gravity_y.Name" xml:space="preserve">
+    <value>textBox_gravity_y</value>
+  </data>
+  <data name="&gt;&gt;textBox_gravity_y.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox_gravity_y.Parent" xml:space="preserve">
+    <value>tabPage_normal</value>
+  </data>
+  <data name="&gt;&gt;textBox_gravity_y.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="textBox_gravity_x.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="textBox_gravity_x.Location" type="System.Drawing.Point, System.Drawing">
+    <value>197, 140</value>
+  </data>
+  <data name="textBox_gravity_x.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 27</value>
+  </data>
+  <data name="textBox_gravity_x.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;textBox_gravity_x.Name" xml:space="preserve">
+    <value>textBox_gravity_x</value>
+  </data>
+  <data name="&gt;&gt;textBox_gravity_x.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox_gravity_x.Parent" xml:space="preserve">
+    <value>tabPage_normal</value>
+  </data>
+  <data name="&gt;&gt;textBox_gravity_x.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="textBox_dragmess.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="textBox_dragmess.Location" type="System.Drawing.Point, System.Drawing">
+    <value>197, 107</value>
+  </data>
+  <data name="textBox_dragmess.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 27</value>
+  </data>
+  <data name="textBox_dragmess.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;textBox_dragmess.Name" xml:space="preserve">
+    <value>textBox_dragmess</value>
+  </data>
+  <data name="&gt;&gt;textBox_dragmess.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox_dragmess.Parent" xml:space="preserve">
+    <value>tabPage_normal</value>
+  </data>
+  <data name="&gt;&gt;textBox_dragmess.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="textBox_turnmass.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="textBox_turnmass.Location" type="System.Drawing.Point, System.Drawing">
+    <value>197, 74</value>
+  </data>
+  <data name="textBox_turnmass.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 27</value>
+  </data>
+  <data name="textBox_turnmass.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;textBox_turnmass.Name" xml:space="preserve">
+    <value>textBox_turnmass</value>
+  </data>
+  <data name="&gt;&gt;textBox_turnmass.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox_turnmass.Parent" xml:space="preserve">
+    <value>tabPage_normal</value>
+  </data>
+  <data name="&gt;&gt;textBox_turnmass.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="textBox_carweight.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="textBox_carweight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>197, 41</value>
+  </data>
+  <data name="textBox_carweight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 27</value>
+  </data>
+  <data name="textBox_carweight.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;textBox_carweight.Name" xml:space="preserve">
+    <value>textBox_carweight</value>
+  </data>
+  <data name="&gt;&gt;textBox_carweight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox_carweight.Parent" xml:space="preserve">
+    <value>tabPage_normal</value>
+  </data>
+  <data name="&gt;&gt;textBox_carweight.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI, 9pt, style=Bold</value>
+  </data>
+  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 78</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 19</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>车辆惯性</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>tabPage_normal</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI, 9pt, style=Bold</value>
+  </data>
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 45</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 19</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>车辆重量</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>tabPage_normal</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="textBox_carname.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="textBox_carname.Location" type="System.Drawing.Point, System.Drawing">
+    <value>197, 8</value>
+  </data>
+  <data name="textBox_carname.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 27</value>
+  </data>
+  <data name="textBox_carname.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;textBox_carname.Name" xml:space="preserve">
+    <value>textBox_carname</value>
+  </data>
+  <data name="&gt;&gt;textBox_carname.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox_carname.Parent" xml:space="preserve">
+    <value>tabPage_normal</value>
+  </data>
+  <data name="&gt;&gt;textBox_carname.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI, 9pt, style=Bold</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 19</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>车辆名称</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>tabPage_normal</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="tabPage_normal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 29</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tabPage_normal.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPage_normal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>328, 360</value>
+  </data>
+  <data name="tabPage_normal.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabPage_normal.Text" xml:space="preserve">
+    <value>常规</value>
+  </data>
+  <data name="&gt;&gt;tabPage_normal.Name" xml:space="preserve">
+    <value>tabPage_normal</value>
+  </data>
+  <data name="&gt;&gt;tabPage_normal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage_normal.Parent" xml:space="preserve">
+    <value>tabControl_cfgdata</value>
+  </data>
+  <data name="&gt;&gt;tabPage_normal.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabPage_grip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 29</value>
+  </data>
+  <data name="tabPage_grip.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPage_grip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>328, 360</value>
+  </data>
+  <data name="tabPage_grip.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tabPage_grip.Text" xml:space="preserve">
+    <value>抓地力</value>
+  </data>
+  <data name="&gt;&gt;tabPage_grip.Name" xml:space="preserve">
+    <value>tabPage_grip</value>
+  </data>
+  <data name="&gt;&gt;tabPage_grip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage_grip.Parent" xml:space="preserve">
+    <value>tabControl_cfgdata</value>
+  </data>
+  <data name="&gt;&gt;tabPage_grip.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabControl_cfgdata.Location" type="System.Drawing.Point, System.Drawing">
+    <value>189, 34</value>
+  </data>
+  <data name="tabControl_cfgdata.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 393</value>
+  </data>
+  <data name="tabControl_cfgdata.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tabControl_cfgdata.Name" xml:space="preserve">
+    <value>tabControl_cfgdata</value>
+  </data>
+  <data name="&gt;&gt;tabControl_cfgdata.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabControl_cfgdata.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tabControl_cfgdata.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="listBox_carnames.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="listBox_carnames.ItemHeight" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="listBox_carnames.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 63</value>
+  </data>
+  <data name="listBox_carnames.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 364</value>
+  </data>
+  <data name="listBox_carnames.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;listBox_carnames.Name" xml:space="preserve">
+    <value>listBox_carnames</value>
+  </data>
+  <data name="&gt;&gt;listBox_carnames.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listBox_carnames.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;listBox_carnames.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>9, 20</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>740, 486</value>
+    <value>542, 433</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
   </data>
@@ -299,8 +834,5 @@
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="handling_open_title" xml:space="preserve">
-    <value>请打开Handling.cfg文件</value>
   </data>
 </root>
