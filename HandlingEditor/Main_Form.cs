@@ -73,14 +73,49 @@ namespace HandlingEditor
                 List<string> numericData = GetNumericData(selectedCarLine);
 
                 // 获取数据之后，将数据放入各个textbox
+
+                // 常规
                 textBox_carname.Text = selectedCar; // 直接获取ListBox中的车名
-                textBox_carweight.Enabled = true; textBox_carweight.Text = double.Parse(numericData[0]).ToString("0.00"); //2位小数
-                textBox_turnmass.Enabled = true; textBox_turnmass.Text = double.Parse(numericData[1]).ToString("0.00"); //2位小数
-                textBox_dragmess.Enabled = true; textBox_dragmess.Text = double.Parse(numericData[2]).ToString("0.00"); //2位小数
-                textBox_gravity_x.Enabled = true; textBox_gravity_x.Text = double.Parse(numericData[3]).ToString("0.00"); //2位小数
-                textBox_gravity_y.Enabled = true; textBox_gravity_y.Text = double.Parse(numericData[4]).ToString("0.00"); //2位小数
-                textBox_gravity_z.Enabled = true; textBox_gravity_z.Text = double.Parse(numericData[5]).ToString("0.00"); //2位小数
-                textBox_drown_per.Enabled = true; textBox_drown_per.Text = double.Parse(numericData[6]).ToString(); //没有小数
+                textBox_carweight.Enabled = true; textBox_carweight.Text = numericData[1];
+                textBox_turnmass.Enabled = true; textBox_turnmass.Text = numericData[2];
+                textBox_dragmess.Enabled = true; textBox_dragmess.Text = numericData[3];
+                textBox_gravity_x.Enabled = true; textBox_gravity_x.Text = numericData[4];
+                textBox_gravity_y.Enabled = true; textBox_gravity_y.Text = numericData[5];
+                textBox_gravity_z.Enabled = true; textBox_gravity_z.Text = numericData[6];
+                textBox_drown_per.Enabled = true; textBox_drown_per.Text = numericData[7];
+
+                // 抓地力
+                textBox_grip_b.Enabled = true; textBox_grip_b.Text = numericData[8];
+                textBox_grip_data.Enabled = true; textBox_grip_data.Text = numericData[9];
+                textBox_grip_fr.Enabled = true; textBox_grip_fr.Text = numericData[10];
+
+                // 参数
+                textBox_gear.Enabled = true; textBox_gear.Text = numericData[11];
+                textBox_topspeed.Enabled = true; textBox_topspeed.Text = numericData[12];
+                textBox_speedup.Enabled = true; textBox_speedup.Text = numericData[13];
+                textBox_speedup_force.Enabled = true; textBox_speedup_force.Text = numericData[14];
+                textBox_drive_form.Enabled = true; textBox_drive_form.Text = numericData[15];
+                textBox_engine_type.Enabled = true; textBox_engine_type.Text = numericData[16];
+                textBox_brake.Enabled = true; textBox_brake.Text = numericData[17];
+                textBox_brake_balance.Enabled = true; textBox_brake_balance.Text = numericData[18];
+                textBox_abs.Enabled = true; textBox_abs.Text = numericData[19];
+                textBox_max_turnangle.Enabled = true; textBox_max_turnangle.Text = numericData[20];
+
+                // 悬挂
+                textBox_hand_g.Enabled = true; textBox_hand_g.Text = numericData[21];
+                textBox_hand_force.Enabled = true; textBox_hand_force.Text = numericData[22];
+                textBox_hs_force.Enabled = true; textBox_hs_force.Text = numericData[23];
+                textBox_hand_top.Enabled = true; textBox_hand_top.Text = numericData[24];
+                textBox_hand_down.Enabled = true; textBox_hand_down.Text = numericData[25];
+                textBox_hand_balance.Enabled = true; textBox_hand_balance.Text = numericData[26];
+                textBox_hand_hard.Enabled = true; textBox_hand_hard.Text = numericData[27];
+
+                // 其他
+                textBox_door.Enabled = true; textBox_door.Text = numericData[28];
+                textBox_damage.Enabled = true; textBox_damage.Text = numericData[29];
+                textBox_price.Enabled = true; textBox_price.Text = numericData[30];
+
+                // 特殊
             }
         }
 
@@ -92,26 +127,26 @@ namespace HandlingEditor
         private List<string> GetNumericData(string line)
         {
             List<string> numericData = new List<string>();
-            StringBuilder currentNumber = new StringBuilder();
+            StringBuilder currentToken = new StringBuilder();
             foreach (char c in line)
             {
                 if (char.IsWhiteSpace(c))
                 {
-                    if (currentNumber.Length > 0)
+                    if (currentToken.Length > 0)
                     {
-                        numericData.Add(currentNumber.ToString());
-                        currentNumber.Clear();
+                        numericData.Add(currentToken.ToString());
+                        currentToken.Clear();
                     }
                 }
-                else if (char.IsDigit(c) || c == '.' || c == '-')
+                else
                 {
-                    // 遇到数字、小数点或负号，添加到当前数字
-                    currentNumber.Append(c);
+                    // 添加到当前数字或字母
+                    currentToken.Append(c);
                 }
             }
-            if (currentNumber.Length > 0)
+            if (currentToken.Length > 0)
             {
-                numericData.Add(currentNumber.ToString());
+                numericData.Add(currentToken.ToString());
             }
             return numericData;
         }
