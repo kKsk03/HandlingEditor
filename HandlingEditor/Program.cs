@@ -8,6 +8,10 @@ namespace HandlingEditor
         [STAThread]
         static void Main()
         {
+            // 预设置保证后续运行
+            Properties.Settings.Default.isHandlingOpen = false;
+
+
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
